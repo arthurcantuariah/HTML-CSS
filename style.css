@@ -1,8 +1,19 @@
 @charset "UTF-8";/*We use the @ to declare a rule in CSS3, this rule is used to declare accent compatibility in css.*/ 
 
+/*To a complete material in CSS3, use that link - https://docs.google.com/document/d/1JHKKVavCOThA6jxtbbCXfCu6MSGf9TngEW06EdSdk_4/edit*/
+
+
+
 /*Using Color*/ 
 /*We use the hexadecimal code to represent the color that will be applied.*/ 
 p {
     background-color: #002330;/*We use the background-color parameter to set the website background.*/
-    color: #ffffff;/*We use the color parameter to set the text color*/
+    color: #ffffff;/*We use the color parameter to set the text color.*/
+} 
+
+/*Using Gradient*/ 
+/*Using parameters to create gradients backgrounds*/
+body {
+    background-image: linear-gradient(to right, #ffff00, #ffa500);/*Create a gradient background linear in website.*/
+    background-image: radial-gradient();/*Create a gradient background radial in website.*/
 }
