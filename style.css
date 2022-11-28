@@ -16,4 +16,10 @@ p {
 body {
     background-image: linear-gradient(to right, #ffff00, #ffa500);/*Create a gradient background linear in website.*/
     background-image: radial-gradient();/*Create a gradient background radial in website.*/
+} 
+
+/*Using Text*/ 
+
+p {
+    text-align: center, left, right, justify;/*Using this parameter to align text*/ 
 }
