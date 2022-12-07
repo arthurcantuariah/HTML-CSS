@@ -31,7 +31,10 @@ p {
         lighter,/*Sets the font thinnest.*/
         normal,/*Sets the normal font.*/ 
         bold,/*Sets the bold font.*/
-        bolder;/*Sets the bolder font.*/
+        bolder;/*Sets the bolder font.*/ 
+
+    font-style:/*Use the parameter to change the font style.*/
+        italic;/*Put the font in italic style.*/
 
     text-align:/*Using this parameter to align text*/ 
         center, 
