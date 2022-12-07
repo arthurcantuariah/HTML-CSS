@@ -21,5 +21,12 @@ body {
 /*Using Text*/ 
 
 p {
-    text-align: center, left, right, justify;/*Using this parameter to align text*/ 
+    font-family:/*Use the parameter to define the font that we will use in the website.*/ 
+        Ebrima;/*Put the name font inside the parameter.*/
+    
+    text-align:/*Using this parameter to align text*/ 
+        center, 
+        left, 
+        right, 
+        justify;
 }
