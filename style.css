@@ -25,8 +25,14 @@ p {
         'Ebrima';/*Put the name font inside the parameter.*/
     
     font-size:/*Use the parameter to define the size font.*/ 
-        17px;/*Use pixel to unit of measurement to font.*/
-    
+        17px;/*Use pixel to unit of measurement to font.*/ 
+
+    font-weight:/*Sets the font weight, to bloder or to lighter.*/ 
+        lighter,/*Sets the font thinnest.*/
+        normal,/*Sets the normal font.*/ 
+        bold,/*Sets the bold font.*/
+        bolder;/*Sets the bolder font.*/
+
     text-align:/*Using this parameter to align text*/ 
         center, 
         left, 
