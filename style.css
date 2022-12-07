@@ -22,7 +22,10 @@ body {
 
 p {
     font-family:/*Use the parameter to define the font that we will use in the website.*/ 
-        Ebrima;/*Put the name font inside the parameter.*/
+        'Ebrima';/*Put the name font inside the parameter.*/
+    
+    font-size:/*Use the parameter to define the size font.*/ 
+        17px;/*Use pixel to unit of measurement to font.*/
     
     text-align:/*Using this parameter to align text*/ 
         center, 
