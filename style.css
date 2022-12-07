@@ -34,7 +34,12 @@ p {
         bolder;/*Sets the bolder font.*/ 
 
     font-style:/*Use the parameter to change the font style.*/
-        italic;/*Put the font in italic style.*/
+        italic;/*Put the font in italic style.*/ 
+
+    text-decoration:/*Use the parameter to sets lines in the text.*/ 
+        line-through,/*lines inside the text.*/
+        overline,/*lines up the text.*/   
+        underline;/*lines under the text.*/
 
     text-align:/*Using this parameter to align text*/ 
         center, 
