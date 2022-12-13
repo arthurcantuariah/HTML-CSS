@@ -21,6 +21,9 @@ body {
 /*Using Text*/ 
 
 p {
+/*Example shorthand.*/
+/*Shorthand font = font: font-style, font-weight, font-size, font-family; (use this feature to make writing code easier.*/
+
     font-family:/*Use the parameter to define the font that we will use in the website.*/ 
         'Ebrima';/*Put the name font inside the parameter.*/
     
