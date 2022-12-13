@@ -1,4 +1,9 @@
-@charset "UTF-8";/*We use the @ to declare a rule in CSS3, this rule is used to declare accent compatibility in css.*/ 
+@charset "UTF-8";/*We use the @ to declare a rule in CSS3, this rule is used to declare accent compatibility in css.*/  
+
+@font-face {/*Use @font-face to put external fonts of your pc.*/
+    font-family: 'Glamour';
+    src: url('font/Glamor-Regular.ttf') format('truetype');/*We apply here external font.*/
+}
 
 /*To a complete material in CSS3, use that link - https://docs.google.com/document/d/1JHKKVavCOThA6jxtbbCXfCu6MSGf9TngEW06EdSdk_4/edit*/
 
@@ -45,7 +50,7 @@ p {
         underline;/*lines under the text.*/
 
     text-align:/*Using this parameter to align text*/ 
-        center, 
+        center,
         left, 
         right, 
         justify;
