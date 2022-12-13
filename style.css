@@ -50,8 +50,8 @@ p {
         underline;/*lines under the text.*/
 
     text-align:/*Using this parameter to align text*/ 
-        center,
-        left, 
-        right, 
-        justify;
+        center,/*Aling the text to the center.*/
+        left,/*Aling the text to the left*/
+        right,/*Aling the text to the right*/
+        justify;/*Aling the text*/
 }
