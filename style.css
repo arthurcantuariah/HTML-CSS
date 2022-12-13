@@ -53,5 +53,8 @@ p {
         center,/*Aling the text to the center.*/
         left,/*Aling the text to the left*/
         right,/*Aling the text to the right*/
-        justify;/*Aling the text*/
+        justify;/*Aling the text*/ 
+    
+    text-indent:/*Used the text-ident to creat the indentation used at the beginning of paragraphs.*/
+        20px;/*Paragraph spacing measure.*/
 }
