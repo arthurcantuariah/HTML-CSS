@@ -56,5 +56,9 @@ p {
         justify;/*Aling the text*/ 
     
     text-indent:/*Used the text-ident to creat the indentation used at the beginning of paragraphs.*/
-        20px;/*Paragraph spacing measure.*/
-}
+        20px;/*Paragraph spacing measure.*/ 
+
+} 
+
+/*Using id="" in CSS3*/
+h1#title {}/*Example of special selector assignment id="..., this parameter specially modifies the selected tag."*/
