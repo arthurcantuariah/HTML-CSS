@@ -61,4 +61,7 @@ p {
 } 
 
 /*Using id="" in CSS3*/
-h1#title {}/*Example of special selector assignment id="..., this parameter specially modifies the selected tag."*/
+h1#title {}/*Example of special selector assignment id="...", this parameter specially modifies the selected tag."*/ 
+
+/*Using class="" in CSS3*/
+h1.text {}/*Example of special selector assignment class="...", this parameter specially modifies the selected tags.*/
