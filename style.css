@@ -64,4 +64,15 @@ p {
 h1#title {}/*Example of special selector assignment id="...", this parameter specially modifies the selected tag."*/ 
 
 /*Using class="" in CSS3*/
-h1.text {}/*Example of special selector assignment class="...", this parameter specially modifies the selected tags.*/
+.text {}/*Example of special selector assignment class="...", this parameter specially modifies the selected tags.*/ 
+
+/*Using Pseudo-class*/ 
+/*To button*/
+img:hover {}/*The pseudo-class houver is used for generate an animation, when hovering the mouse over the element.*/ 
+img:active {}/*The pseudo-class active is used for change the style when we click on it.*/
+img:disabled {}/*The pseudo-class disabled is used for apply a different style to a element disabled.*/
+/*To link*/
+img:link {}/*the pseudo-class link creat a change when we click on link.*/ 
+img:visited {}/*the pseudo-class change the link when he is visited.*/
+/*To form*/
+img:focus {}/*The pseudo-class focus creat a change in the field when clicked.*/
