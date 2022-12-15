@@ -68,11 +68,23 @@ h1#title {}/*Example of special selector assignment id="...", this parameter spe
 
 /*Using Pseudo-class*/ 
 /*To button*/
-img:hover {}/*The pseudo-class houver is used for generate an animation, when hovering the mouse over the element.*/ 
-img:active {}/*The pseudo-class active is used for change the style when we click on it.*/
-img:disabled {}/*The pseudo-class disabled is used for apply a different style to a element disabled.*/
+:hover {}/*The pseudo-class houver is used for generate an animation, when hovering the mouse over the element.*/ 
+:active {}/*The pseudo-class active is used for change the style when we click on it.*/
+:disabled {}/*The pseudo-class disabled is used for apply a different style to a element disabled.*/
 /*To link*/
-img:link {}/*the pseudo-class link creat a change when we click on link.*/ 
-img:visited {}/*the pseudo-class change the link when he is visited.*/
+:link {}/*the pseudo-class link creat a change when we click on link.*/ 
+:visited {}/*the pseudo-class change the link when he is visited.*/
 /*To form*/
-img:focus {}/*The pseudo-class focus creat a change in the field when clicked.*/
+:focus {}/*The pseudo-class focus creat a change in the field when clicked.*/ 
+
+/*Using Pseudo-elements*/
+/*The pseudo-elements allows you to style a spcecific part of an element.*/  
+::first-line {}/*Lets you style the first line of a text.*/
+::first-letter {}/*Lets you style the first letter of a text.*/ 
+::selection {}/*Change the color of the text selector.*/ 
+::marker {}/*Change the marker the of a list.*/ 
+::placeholder {}/*style the text inside the input fields.*/ 
+::before {}/*Apply a content before a selected element.*/
+::after {}/*Apply a content aftera selected element.*/ 
+
+
