@@ -58,7 +58,20 @@ p {
     text-indent:/*Used the text-ident to creat the indentation used at the beginning of paragraphs.*/
         20px;/*Paragraph spacing measure.*/ 
 
-} 
+}  
+
+/*Box Model*/ 
+/*We use the box structure to style and organize our visible elements on the screen.*/ 
+div {
+
+    height: ;/*adjust the height of the element.*/ 
+    width: ;/*adjust the width of the element.*/
+    border: ;/*defines a border on the element.*/ 
+    padding: ;/*defines an inner padding on the element.*/
+    margin: ;/*defines an external space on the element.*/ 
+    outline: ;/*defines an outline in the padding on the element.*/
+
+}
 
 /*Using id="" in CSS3*/
 h1#title {}/*Example of special selector assignment id="...", this parameter specially modifies the selected tag."*/ 
